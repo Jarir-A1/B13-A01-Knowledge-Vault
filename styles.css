@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -127,3 +128,117 @@
     background: none;
     border: 1px solid white;
 }
+
+
+#notes{
+    max-width: 1600px;
+    height: 350px;
+    padding: 0px auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-notes{
+    width: 70%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 50x;
+}
+
+.text-notes p{
+    color: rgba(98, 115, 130, 1);
+}
+
+.card-notes{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.card{    
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 26; */
+    margin: 10px ;
+    text-align: center;
+
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.064);
+    background: rgba(255, 255, 255, 1);
+
+    font-size: 10px;
+    color: rgba(98, 115, 130, 1);
+
+}
+.card h3{
+    color: black;
+}
+
+.your-card{
+    max-width:1600px;
+    min-height: 800px;
+}
+
+.your-inside{
+    width: 85%;
+    max-width: 1600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 50px 100px;
+
+}
+
+.your-img img{
+    width: 500px;
+    height: 500px;
+}
+
+.your-text{
+    padding: 0;
+    line-break: 20px;
+}
+
+.your-text p{
+    margin-bottom: 20px;
+    color: rgba(98, 115, 130, 1)
+}
+
+.your-text h4{
+    color: rgba(70, 145, 101, 1);
+}
+
+
+
+.your-check div{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.your-check h4{
+    font-weight: 100px;
+    font: 100;
+}
+
+.your-check div img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
